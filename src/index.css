@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+main{
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+main *{
+  background-color: blue;
+}
